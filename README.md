@@ -16,7 +16,7 @@ MACWT (Multi-scale Adaptive Causal Wavelet Transform) is a comprehensive analyti
   - `Utils.py`: Data preprocessing utilities.
   - `agent1.py`: Multi-agent controller with random exploration strategy for per-slice loss weight tuning.
 - **/Basis**: Contains implementations of 12 baseline methods for comparative evaluation (CCST, DeepST, DiffusionST, GraphST, SEDR, SPACEL, SPIRAL, STAGATE, STAligner, STitch3D, SpaGCN, stDCL).
-- **/Config**: YAML configuration files for each dataset (DLPFC, MBA, ME3, MERFISH, MOB, STARmap, osmFISH).
+- **/Config**: YAML configuration files for each dataset (DLPFC, MERFISH, STARmap, osmFISH).
 - **/run**: Jupyter notebooks to reproduce the results presented in the manuscript.
 - **requirement.txt**: List of required Python packages.
 
@@ -47,6 +47,7 @@ All datasets used in the manuscript can be downloaded from:
 [https://zenodo.org/records/15090086](https://zenodo.org/records/15090086)
 
 - **DLPFC**: 12 slices of human dorsolateral prefrontal cortex (Visium 10x).
+- **MERFISH**: Mouse brain data (MERFISH platform).
 - **STARmap**: Mouse brain data (STARmap platform).
 - **osmFISH**: Mouse somatosensory cortex (osmFISH platform).
 
