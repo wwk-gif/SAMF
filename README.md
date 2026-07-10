@@ -47,10 +47,7 @@ All datasets used in the manuscript can be downloaded from:
 [https://zenodo.org/records/15090086](https://zenodo.org/records/15090086)
 
 - **DLPFC**: 12 slices of human dorsolateral prefrontal cortex (Visium 10x).
-- **MBA**: Mouse Brain Atlas (MERFISH).
-- **ME3**: Mouse embryo data (Stereo-seq) across three developmental stages (E9.5, E10.5, E11.5).
-- **MERFISH**: Mouse brain data (MERFISH platform).
-- **MOB**: Mouse olfactory bulb (Slide-seqV2 and Stereo-seq).
+- **ME3**: Mouse embryo data (Stereo-seq) across three developmental stages.
 - **STARmap**: Mouse brain data (STARmap platform).
 - **osmFISH**: Mouse somatosensory cortex (osmFISH platform).
 
