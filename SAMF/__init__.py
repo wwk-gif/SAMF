@@ -1,4 +1,4 @@
-from .Models import MACWT_model
+from .Models import SAMF_model
 from .Func import graph_construction, graph_construction3D
 from .Pipeline import SC_pipeline, SC_BC_pipeline
 from .Utils import get_metrics

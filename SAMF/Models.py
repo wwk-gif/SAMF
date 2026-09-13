@@ -402,8 +402,8 @@ class Decoder(nn.Module):
         return self.layer1(x, edge_index)
 
 
-# ==================== Modified MACWT_model class ====================
-class MACWT_model(nn.Module):
+# ==================== Modified SAMF_model class ====================
+class SAMF_model(nn.Module):
     def __init__(self, input_dim, config, imputation=True):
         super().__init__()
         self.imputation = imputation
@@ -416,7 +416,7 @@ class MACWT_model(nn.Module):
         self.gamma1 = config.get('gamma1', 0.5)  # γ₁: spatial smoothness
         self.gamma2 = config.get('gamma2', 0.2)  # γ₂: feature independence
 
-        print(f"\nEnhanced MACWT model initialized (enhancements enabled by default):")
+        print(f"\nEnhanced SAMF model initialized (enhancements enabled by default):")
         print(f"  Input dim: {input_dim}")
         print(f"  Latent dim: {self.dec_in_dim}")
         print(f"  Use wavelet transform: {self.use_wavelet}")

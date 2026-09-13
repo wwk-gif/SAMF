@@ -9,7 +9,7 @@ from tqdm import tqdm
 from torch.backends import cudnn
 import pandas as pd
 
-from .Models import MACWT_model
+from .Models import SAMF_model
 from .GLNS import GLNSampler, GLNSampler_BC
 
 from .agent1 import MultiAgentController
@@ -47,7 +47,7 @@ class SC_pipeline:
         self.edge_index = self.edge_index.to(self.device)
 
         self.input_dim = self.X.shape[-1]
-        self.model = MACWT_model(self.input_dim, self.model_config, imputation=self.imputation).to(self.device)
+        self.model = SAMF_model(self.input_dim, self.model_config, imputation=self.imputation).to(self.device)
         self.optimizer = torch.optim.Adam(
             params=list(self.model.parameters()),
             lr=0.001,
@@ -282,7 +282,7 @@ class SC_BC_pipeline:
         self.edge_index = self.edge_index.to(self.device)
 
         self.input_dim = self.X.shape[-1]
-        self.model = MACWT_model(self.input_dim, self.model_config, imputation=self.imputation).to(self.device)
+        self.model = SAMF_model(self.input_dim, self.model_config, imputation=self.imputation).to(self.device)
         self.optimizer = torch.optim.Adam(
             params=list(self.model.parameters()),
             lr=0.001,
