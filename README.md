@@ -1,7 +1,7 @@
 # SAMF
 
 ## Introduction
-SAMF (tructure-constrained Attention and Hierarchical Multi-scaleFusion for Progressive Integration of Multi-slice Spatial Transcriptomics) is a comprehensive analytical framework designed for multi-slice spatially resolved transcriptomics (SRT) data. It integrates wavelet transform-based multi-scale feature extraction, causal inference-guided attention mechanisms, and multi-agent adaptive loss balancing to decipher spatial structures and correct batch effects across tissue slices. The method supports spatial domain identification, cross-slice integration, cross-developmental stage comparisons, and cross-platform data harmonization.
+SAMF (Structure-constrained Attention and Hierarchical Multi-scale Fusion for Progressive Integration of Multi-slice Spatial Transcriptomics) is a comprehensive analytical framework designed for multi-slice spatially resolved transcriptomics (SRT) data. It integrates wavelet transform-based multi-scale feature extraction, causal inference-guided attention mechanisms, and multi-agent adaptive loss balancing to decipher spatial structures and correct batch effects across tissue slices. The method supports spatial domain identification, cross-slice integration, cross-developmental stage comparisons, and cross-platform data harmonization.
 
 ---
 
