@@ -44,7 +44,6 @@ pip install -r requirement.txt
 
 ## Dataset
 All datasets used in the manuscript can be downloaded from:
-[https://zenodo.org/records/15090086](https://zenodo.org/records/15090086)
 
 - **DLPFC**: 12 slices of human dorsolateral prefrontal cortex (Visium 10x).  {http://spatial.libd.org/spatialLIBD/
 
