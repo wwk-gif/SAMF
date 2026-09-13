@@ -46,10 +46,10 @@ pip install -r requirement.txt
 All datasets used in the manuscript can be downloaded from:
 [https://zenodo.org/records/15090086](https://zenodo.org/records/15090086)
 
-- **DLPFC**: 12 slices of human dorsolateral prefrontal cortex (Visium 10x).
-- **MERFISH**: Mouse brain data (MERFISH platform).
-- **STARmap**: Mouse brain data (STARmap platform).
-- **osmFISH**: Mouse somatosensory cortex (osmFISH platform).
+- **DLPFC**: 12 slices of human dorsolateral prefrontal cortex (Visium 10x).  {http://spatial.libd.org/spatialLIBD/
+
+- **STARmap**: Mouse brain data (STARmap platform).  https://www.science.org/doi/10.1126/science.aat5691
+- **osmFISH**: Mouse somatosensory cortex (osmFISH platform).  https://doi.org/10.1038/s41592-018-0175-3
 
 Configuration files for each dataset are provided in the `/Config` directory, specifying model hyperparameters, training settings, and preprocessing options.
 
