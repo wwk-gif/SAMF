@@ -1,13 +1,13 @@
-# MACWT
+# SAMF
 
 ## Introduction
-MACWT (Multi-scale Adaptive Causal Wavelet Transform) is a comprehensive analytical framework designed for multi-slice spatially resolved transcriptomics (SRT) data. It integrates wavelet transform-based multi-scale feature extraction, causal inference-guided attention mechanisms, and multi-agent adaptive loss balancing to decipher spatial structures and correct batch effects across tissue slices. The method supports spatial domain identification, cross-slice integration, cross-developmental stage comparisons, and cross-platform data harmonization.
+SAMF (tructure-constrained Attention and Hierarchical Multi-scaleFusion for Progressive Integration of Multi-slice Spatial Transcriptomics) is a comprehensive analytical framework designed for multi-slice spatially resolved transcriptomics (SRT) data. It integrates wavelet transform-based multi-scale feature extraction, causal inference-guided attention mechanisms, and multi-agent adaptive loss balancing to decipher spatial structures and correct batch effects across tissue slices. The method supports spatial domain identification, cross-slice integration, cross-developmental stage comparisons, and cross-platform data harmonization.
 
 ---
 
 ## Catalogs
-- **/MACWT**: Contains the core implementation of the MACWT algorithm.
-  - `Models.py`: MACWT model architecture, including the wavelet transform module (`SpaWaveletTransform`), causal inference module (`SpaCausalInference`), Encoder, Decoder, and the main `MACWT_model` class.
+- **/SAMF**: Contains the core implementation of the SAMF algorithm.
+  - `Models.py`: SAMF model architecture, including the wavelet transform module (`SpaWaveletTransform`), causal inference module (`SpaCausalInference`), Encoder, Decoder, and the main `SAMF_model` class.
   - `Pipeline.py`: Training pipelines (`SC_pipeline` and `SC_BC_pipeline`) with multi-agent controller integration for adaptive loss weight optimization.
   - `GLNS.py`: Graph-based local-neighborhood sampling (GLNSampler) for constructing positive/negative pairs in contrastive learning.
   - `Align.py`: Spatial coordinate alignment utilities.
@@ -23,7 +23,7 @@ MACWT (Multi-scale Adaptive Causal Wavelet Transform) is a comprehensive analyti
 ---
 
 ## Environment
-The MACWT code has been implemented and tested in the following development environment:
+The SAMF code has been implemented and tested in the following development environment:
 
 - Python == 3.10
 - PyTorch == 2.2.2+cu118
@@ -65,7 +65,7 @@ Configuration files for each dataset are provided in the `/Config` directory, sp
 
 3. **Configure the experiment** by editing the corresponding YAML file in `/Config` (e.g., `DLPFC.yaml` for DLPFC data).
 
-4. **Run the MACWT pipeline**:
+4. **Run the SAMF pipeline**:
     ```bash
     python main.py --config Config/DLPFC.yaml
     ```
