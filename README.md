@@ -74,4 +74,4 @@ Configuration files for each dataset are provided in the `/Config` directory, sp
 ---
 
 ## Contact
-If you have any questions, please contact 332516060892@zzuli.edu.cn.
+If you have any questions, please contact guoyanbu@zzuli.edu.cn. 332516060892@zzuli.edu.cn.
